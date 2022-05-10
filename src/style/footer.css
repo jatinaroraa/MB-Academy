@@ -1,0 +1,130 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000080;
+  padding: 100px 150px;
+}
+
+.footerform {
+  background-color: #000080;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 45vh;
+  color: white;
+  font-size: 16px;
+  width: 40vw;
+  /* margin: 20px 30px; */
+  /* padding: 100px 50px; */
+}
+.footerform input {
+  color: white;
+  width: 30vw;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+/* input:focus-visible {
+  outline-width: 0px;
+} */
+.footerform textarea {
+  width: 30vw;
+  background-color: rgba(255, 255, 255, 0.65);
+  color: white;
+
+  /* height: 20px; */
+}
+#button {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  background-color: yellow;
+}
+.followheader {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.follow {
+  width: 60vw;
+  margin-left: 150px;
+}
+.icons {
+  margin: 10px 20px;
+  /* font-size: 30px; */
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+#icon {
+  margin: 5px;
+  color: white;
+}
+.designmark {
+  background-color: #806f79;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.designmark a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+@media screen and (max-width: 1000px) {
+  /* .followheader {
+    color: white;
+    font-size: px;
+    font-weight: 600;
+  } */
+  .footer {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 50px 40px;
+    /* margin: 20px 0px; */
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .followheader {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .footerform {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 60vh;
+    color: white;
+    font-size: 16px;
+    width: 80vw;
+    /* margin: 20px 30px; */
+    /* padding: 100px 50px; */
+  }
+  .footerform textarea {
+    width: 80vw;
+  }
+  .footerform input {
+    width: 80vw;
+  }
+}

@@ -1,0 +1,55 @@
+.recruitersimg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.recruitersimg img {
+  width: 300px;
+  height: 200px;
+  margin: 5px;
+  /* background-color: black; */
+}
+
+.recruiters {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 150px;
+}
+.recruiters h2 {
+  font-size: 32px;
+  color: #333333;
+  text-align: center;
+  margin: 10px 0px 100px 0px;
+}
+@media screen and (max-width: 1000px) {
+  .recruitersimg img {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    /* background-color: black; */
+  }
+  .recruiters {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .recruiters {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px;
+  }
+  .recruitersimg img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    /* background-color: black; */
+  }
+  .recruiters h2 {
+    font-size: 32px;
+    color: #333333;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+  }
+}

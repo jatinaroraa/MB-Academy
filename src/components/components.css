@@ -1,0 +1,51 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 5vw;
+  border-bottom: 0.1px solid grey;
+}
+.navBarLogo h2 {
+  margin: 10px 20px;
+  font-size: 30px;
+}
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  width: 30vw;
+  justify-content: space-between;
+}
+.navLinks p {
+  color: #00b19e;
+  /* color: #c39a2c !important; */
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Trirong", serif;
+  /* font-family: trirong; */
+}
+/* about page  */
+.about h2 {
+  color: black;
+  text-align: center;
+  font-size: 64px;
+  font-family: "Trirong";
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0 0 9.5px 0;
+}
+.aboutPara {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 15px;
+}
+.aboutPara p {
+  align-items: center;
+  width: 50%;
+  font-family: "Heebo";
+  font-weight: 300;
+  line-height: 1.7;
+  color: #242321;
+  text-rendering: optimizeLegibility;
+  margin: 0 20px;
+}

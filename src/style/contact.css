@@ -1,0 +1,75 @@
+.contactheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 0px;
+  align-items: center;
+  background-image: url("https://docs.google.com/uc?id=17EMvIAe98n1G9qJ3Z4SWCoBhjjOYc9S6");
+}
+.contactcard {
+  padding: 70px 35px 50px 35px;
+  border: 0.5px solid grey;
+  width: 33.333%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.contactouter {
+  margin: 50px 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iconouter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  background-color: #fedeec;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -100px;
+  /* text-align: center; */
+  width: fit-content;
+  height: fit-content;
+}
+.icon:hover {
+  background-color: pink;
+  /* padding: 20px; */
+  border-radius: 30px;
+  /* margin-top: -100px; */
+
+  /* width: fit-content;
+  height: fit-content; */
+}
+#icon {
+  font-size: 46px;
+  color: #666666;
+}
+.cardcontent {
+  font-size: 20px;
+  color: #333333;
+  align-items: center;
+}
+.cardcontent h3 {
+  margin: 0px 0px 35px;
+}
+.cardcontent p {
+  font-size: 16px;
+  color: #666666;
+}
+@media screen and (max-width: 600px) {
+  .contactouter {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+  }
+  .contactcard {
+    width: auto;
+    margin-top: 30px;
+  }
+}
