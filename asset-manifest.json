@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MB-Academy/static/css/main.a2a22b9d.css",
+    "main.js": "/MB-Academy/static/js/main.e9be4e85.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MB-Academy/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.svg": "/MB-Academy/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MB-Academy/index.html",
+    "main.a2a22b9d.css.map": "/MB-Academy/static/css/main.a2a22b9d.css.map",
+    "main.e9be4e85.js.map": "/MB-Academy/static/js/main.e9be4e85.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MB-Academy/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2a22b9d.css",
+    "static/js/main.e9be4e85.js"
+  ]
+}
